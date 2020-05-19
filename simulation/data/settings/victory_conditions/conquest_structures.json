@@ -1,0 +1,17 @@
+{
+	"TranslatedKeys": ["Title", "Description"],
+	"Data":
+	{
+		"Title": "Conquest",
+		"Description": "Claim the right of conquest by destroying or capturing all enemy structures.",
+		"Scripts":
+		[
+			"scripts/TriggerHelper.js",
+			"scripts/ConquestCommon.js",
+			"scripts/ConquestStructures.js"
+		],
+        "DisabledWhenChecked": ["conquest"],
+		"Default": false,
+        "GUIOrder": 3
+	}
+}

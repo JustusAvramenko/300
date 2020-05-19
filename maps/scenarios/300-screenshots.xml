@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="6">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1.10987" g="1.03588" b="0.783438"/>
+		<SunElevation angle="1.06176"/>
+		<SunRotation angle="-2.6659"/>
+		<TerrainAmbientColor r="0.364706" g="0.376471" b="0.419608"/>
+		<UnitsAmbientColor r="0.364706" g="0.376471" b="0.419608"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.894118"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.294118" g="0.34902" b="0.694118"/>
+				<Tint r="0.27451" g="0.294118" b="0.584314"/>
+				<Height>5</Height>
+				<Waviness>4</Waviness>
+				<Murkiness>0.45</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.589844</Saturation>
+			<Bloom>0.116211</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="426.504" y="222.835" z="176.566"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Name": "Unnamed map",
+  "PlayerData": [
+    null,
+    {
+      "Civ": "300_spart"
+    },
+    {
+      "Civ": "cart"
+    },
+    {
+      "Civ": "gaul"
+    },
+    {
+      "Civ": "iber"
+    },
+    {
+      "Civ": "mace"
+    },
+    {
+      "Civ": "pers"
+    },
+    {
+      "Civ": "rome"
+    },
+    {
+      "Civ": "spart"
+    }
+  ],
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="428.04996" z="253.87873"/>
+			<Orientation y="3.07058"/>
+			<Actor seed="21342"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="424.27833" z="254.06562"/>
+			<Orientation y="2.96785"/>
+			<Actor seed="9582"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="426.43668" z="253.69358"/>
+			<Orientation y="3.015"/>
+			<Actor seed="5706"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="418.86234" z="254.8942"/>
+			<Orientation y="-2.5982"/>
+			<Actor seed="50804"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="437.97126" z="252.0734"/>
+			<Orientation y="-2.2616"/>
+			<Actor seed="34340"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="421.79001" z="254.25425"/>
+			<Orientation y="-2.81547"/>
+			<Actor seed="19814"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="429.82648" z="253.57108"/>
+			<Orientation y="-3.54157"/>
+			<Actor seed="16"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="436.00995" z="252.96717"/>
+			<Orientation y="2.68364"/>
+			<Actor seed="64668"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="440.08173" z="250.90275"/>
+			<Orientation y="-1.9191"/>
+			<Actor seed="49080"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="434.1854" z="253.43146"/>
+			<Orientation y="-3.63569"/>
+			<Actor seed="59650"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="435.32047" z="237.66608"/>
+			<Orientation y="3.24973"/>
+			<Actor seed="52442"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="437.39408" z="241.06913"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="59686"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="412.09058" z="240.59705"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="8670"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="412.37406" z="244.07569"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="6832"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="413.05286" z="242.18116"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="57352"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="435.1886" z="241.35901"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="2424"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/300_spart_hero_leonidas</Template>
+			<Player>1</Player>
+			<Position x="424.53821" z="239.01291"/>
+			<Orientation y="-2.99555"/>
+			<Obstruction group="111"/>
+			<Actor seed="30010"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="413.7317" z="240.28663"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="60606"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="413.4824" z="245.75528"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="39920"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="414.45948" z="243.92289"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="63466"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="415.33445" z="247.25675"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="11050"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="415.26954" z="245.54056"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="45110"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="416.37784" z="247.22025"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="26514"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="415.94834" z="243.64618"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="1376"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="414.84003" z="241.96641"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="39464"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="415.5188" z="240.07187"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="58270"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="434.4986" z="239.60407"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="30900"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="416.62717" z="241.75165"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="19044"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="417.24756" z="245.30802"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="62044"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="418.16498" z="247.00547"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="46014"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="418.84382" z="245.11121"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="37538"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="419.95215" z="246.79068"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="8238"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="420.20142" z="241.32212"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="48838"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="417.30597" z="239.85712"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="15284"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="421.7393" z="246.57596"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="44962"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="422.4181" z="244.68171"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="13580"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="432.71146" z="239.81885"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="40210"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="417.9083" z="243.52298"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="10398"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="423.52643" z="246.36124"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="46584"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="419.95505" z="243.56034"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="36180"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="430.64756" z="240.80173"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="56030"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="436.71525" z="242.96366"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="452"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="417.70615" z="241.18406"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="16236"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="425.99241" z="244.2522"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="19660"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="427.77952" z="244.03745"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="47490"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="433.39026" z="237.9243"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="32060"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="418.96396" z="240.16391"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="15190"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="435.75028" z="239.22858"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="61576"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="433.81977" z="241.49863"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="24662"/>
+		</Entity>
+		<Entity uid="61">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="434.24927" z="245.07294"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="51482"/>
+		</Entity>
+		<Entity uid="62">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="431.60312" z="238.13904"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="45862"/>
+		</Entity>
+		<Entity uid="63">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="428.45838" z="242.14289"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="12556"/>
+		</Entity>
+		<Entity uid="64">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="433.14097" z="243.39316"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="31082"/>
+		</Entity>
+		<Entity uid="65">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="427.35001" z="240.46311"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="50886"/>
+		</Entity>
+		<Entity uid="66">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="424.88404" z="242.57242"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="21822"/>
+		</Entity>
+		<Entity uid="67">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="430.94684" z="245.46097"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="2190"/>
+		</Entity>
+		<Entity uid="68">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="431.35383" z="243.60795"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="2898"/>
+		</Entity>
+		<Entity uid="69">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="429.63209" z="242.09461"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="33346"/>
+		</Entity>
+		<Entity uid="81">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="429.23365" z="244.9292"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="27846"/>
+		</Entity>
+		<Entity uid="82">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="436.16279" z="244.54139"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="15182"/>
+		</Entity>
+		<Entity uid="83">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="427.10071" z="245.9318"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="54474"/>
+		</Entity>
+		<Entity uid="84">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="429.35468" z="239.78626"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="38780"/>
+		</Entity>
+		<Entity uid="85">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="429.81598" z="238.3538"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="18138"/>
+		</Entity>
+		<Entity uid="86">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="435.09711" z="242.51966"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="58302"/>
+		</Entity>
+		<Entity uid="87">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="421.9886" z="241.10737"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="55278"/>
+		</Entity>
+		<Entity uid="88">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="429.56666" z="243.8227"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="46892"/>
+		</Entity>
+		<Entity uid="89">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="425.31354" z="246.14652"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="4328"/>
+		</Entity>
+		<Entity uid="90">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="423.77576" z="240.89261"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="7342"/>
+		</Entity>
+		<Entity uid="91">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="432.21497" z="245.77781"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="12376"/>
+		</Entity>
+		<Entity uid="92">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="427.32374" z="242.37201"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="19144"/>
+		</Entity>
+		<Entity uid="93">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="423.81174" z="244.63971"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="35852"/>
+		</Entity>
+		<Entity uid="94">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="432.03263" z="241.71338"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="58338"/>
+		</Entity>
+		<Entity uid="95">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="423.0969" z="242.78718"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="41300"/>
+		</Entity>
+		<Entity uid="96">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="422.6674" z="239.21283"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="21128"/>
+		</Entity>
+		<Entity uid="97">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="420.88028" z="239.42759"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="22836"/>
+		</Entity>
+		<Entity uid="98">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="428.02884" z="238.56855"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="61880"/>
+		</Entity>
+		<Entity uid="99">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="420.63093" z="244.89646"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="45168"/>
+		</Entity>
+		<Entity uid="100">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="420.97053" z="242.26743"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="45536"/>
+		</Entity>
+		<Entity uid="101">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="425.56287" z="240.67786"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="61858"/>
+		</Entity>
+		<Entity uid="102">
+			<Template>units/300_spart_champion_spearman</Template>
+			<Player>1</Player>
+			<Position x="426.2417" z="238.7833"/>
+			<Orientation y="-3.02201"/>
+			<Obstruction group="111"/>
+			<Actor seed="61316"/>
+		</Entity>
+		<Entity uid="111">
+			<Template>special/formations/phalanx</Template>
+			<Player>1</Player>
+			<Position x="370.39733" z="56.0003"/>
+			<Orientation y="0"/>
+		</Entity>
+		<Entity uid="112">
+			<Template>units/300_spart_champion_swordsman</Template>
+			<Player>1</Player>
+			<Position x="431.65421" z="253.08854"/>
+			<Orientation y="3.02935"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

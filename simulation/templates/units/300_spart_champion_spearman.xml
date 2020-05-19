@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Armour>
+    <Hack op="add">1</Hack>
+    <Pierce op="add">1</Pierce>
+    <Crush op="add">1</Crush>
+  </Armour>
+  <Identity>
+    <Civ>300_spart</Civ>
+	<Lang>greek</Lang>
+	<GenericName>Spartan Royal Guard</GenericName>
+    <SpecificName>Spartiátēs Homoion</SpecificName>
+    <VisibleClasses datatype="tokens">
+	  Spartiates
+	</VisibleClasses>
+	<RequiredTechnology>phase_city</RequiredTechnology>
+    <Icon>units/300_spart_champion_spearman.png</Icon>
+    <Formations datatype="tokens">
+      special/formations/phalanx
+    </Formations>
+  </Identity>
+  <TrainingRestrictions>
+    <Category>Spartiates</Category>
+  </TrainingRestrictions>
+  <UnitMotion>
+    <WalkSpeed op="add">2</WalkSpeed>
+  </UnitMotion>
+  <Upgrade>
+    <Sword>
+      <Entity>units/300_spart_champion_swordsman</Entity>
+      <Tooltip>Switch to Sword.</Tooltip>
+      <Time>5</Time>
+    </Sword>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/300_spartans/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

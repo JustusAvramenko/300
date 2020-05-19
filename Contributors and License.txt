@@ -1,0 +1,49 @@
+CONTRIBUTORS
+
+Such a large mod is difficult to create as one man. Others contribute talent and time in order to complete a common vision. Below is a list of contributors to Delenda Est.
+
+
+ARTWORK
+
+stanislas
+- Building and prop models
+
+wackyserious
+- Unit textures
+
+Lion.Kanzen
+- Technology portraits
+
+niektb
+- Technology portraits
+
+LordGood
+- Wheat and barley farms
+
+
+Cliparts.co
+- Cornucopia icon and other free artwork
+
+Madpencil
+- Technology portraits
+
+
+AUDIO
+
+HaelDB on OpenGameArt.org
+- http://opengameart.org/content/male-gruntyelling-sounds
+
+Derek & Brandon Fiechter
+- Music
+
+
+
+
+LICENSE
+
+Artwork and Scripts:
+https://creativecommons.org/licenses/by-sa/3.0/
+
+Music:
+Do not edit any of the music. Must give credit to Derek & Brandon Fiechter if reused.
+
