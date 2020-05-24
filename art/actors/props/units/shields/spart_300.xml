@@ -16,17 +16,17 @@
   <group>
 	<variant name="texture-01">
       <textures>
-        <texture file="props/shield/spart_round_300_01.png" name="baseTex"/>
+        <texture file="props/shield/aspis_300_spart_01.png" name="baseTex"/>
       </textures>
     </variant>
 	<variant name="texture-02">
       <textures>
-        <texture file="props/shield/spart_round_300_02.png" name="baseTex"/>
+        <texture file="props/shield/aspis_300_spart_02.png" name="baseTex"/>
       </textures>
     </variant>
 	<variant name="texture-03">
       <textures>
-        <texture file="props/shield/spart_round_300_03.png" name="baseTex"/>
+        <texture file="props/shield/aspis_300_spart_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

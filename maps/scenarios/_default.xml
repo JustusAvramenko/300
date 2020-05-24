@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Scenario version="6">
-	<Terrain patches="16" texture="300_therm_dirt_01" priority="0" height="16384"/>
+	<Terrain patches="16" texture="300_therm_dirt_01" priority="0" height="2048"/>
 	<Environment>
 		<SkySet>default</SkySet>
 		<SunColor r="0.749020" g="0.749020" b="0.749020"/>

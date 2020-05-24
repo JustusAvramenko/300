@@ -135,22 +135,22 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/athen_civil_centre"
+			"Template": "structures/300_athen_civil_centre"
 		},
 		{
-			"Template": "units/athen_support_citizen",
+			"Template": "units/300_athen_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/athen_infantry_hoplite_b",
+			"Template": "units/300_athen_infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/athen_infantry_slinger_b",
+			"Template": "units/300_athen_infantry_marine_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/athen_cavalry_scout"
+			"Template": "units/300_athen_cavalry_swordsman_b"
 		}
 	],
 	"Formations":
@@ -179,22 +179,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/default_hero_1": "units/athen_hero_themistocles",
-		"skirmish/units/default_hero_2": "units/athen_hero_pericles",
-		"skirmish/units/default_hero_3": "units/athen_hero_iphicrates",
-		"skirmish/units/default_hero_4": "",
-		"skirmish/units/default_hero_5": "",
-		"skirmish/units/default_champion_infantry_1": "units/athen_champion_infantry_hoplite",
-		"skirmish/units/default_champion_infantry_2": "units/athen_champion_marine_swordsman",
-		"skirmish/units/default_champion_infantry_3": "units/athen_champion_ranged_archer",
-		"skirmish/units/default_champion_infantry_4": "units/athen_champion_ranged_gastraphetes",
-		"skirmish/units/default_champion_cavalry_1": "",
-		"skirmish/units/default_champion_cavalry_2": "",
-		"skirmish/units/default_infantry_ranged_b": "units/athen_infantry_slinger_b",
-		"skirmish/units/default_infantry_melee_b": "units/athen_infantry_hoplite_b",
-		"skirmish/structures/default_house_10": "structures/athen_house",
-		"skirmish/structures/special_starting_structure": "structures/athen_stoa",
-		"skirmish/structures/default_defense_tower": "structures/{civ}_defense_tower"
+		"skirmish/units/special_starting_unit": "units/300_athen_hero_themistokles_sword",
+		"skirmish/units/default_infantry_ranged_b": "units/300_athen_infantry_marine_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/300_athen_infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/300_athen_cavalry_swordsman_b",
+		"skirmish/structures/default_house_10": "structures/300_athen_house"
 	},
 	"SelectableInGameSetup": true
 }

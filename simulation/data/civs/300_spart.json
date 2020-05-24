@@ -165,7 +165,7 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/special_starting_unit": "units/300_spart_hero_leonidas",
+		"skirmish/units/special_starting_unit": "units/300_spart_hero_leonidas_spear",
 		"skirmish/units/default_infantry_melee_b": "units/300_spart_champion_spearman",
 		"skirmish/structures/default_house_10" : "structures/{civ}_house",
 		"skirmish/structures/default_wall_tower": "",

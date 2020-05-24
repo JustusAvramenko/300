@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_defensive_wall_gate">
+  <Footprint>
+    <Square width="37" depth="7"/>
+    <Height>13.8</Height>
+  </Footprint>
+  <Identity>
+    <Civ>300_pers</Civ>
+    <SpecificName>Duvarθiš</SpecificName>
+  </Identity>
+  <Obstruction>
+    <Obstructions>
+      <Right width="10" depth="6" x="13" z="0"/>
+      <Left width="10" depth="6" x="-13" z="0"/>
+      <Door width="16" depth="6" x="0" z="0"/>
+    </Obstructions>
+  </Obstruction>
+  <StatusBars>
+    <HeightOffset>14.8</HeightOffset>
+  </StatusBars>
+  <VisualActor>
+    <Actor>structures/persians/wall_gate.xml</Actor>
+  </VisualActor>
+</Entity>

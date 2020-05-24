@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_military_fortress">
+  <Identity>
+    <Civ>300_pers</Civ>
+    <SpecificName>Didā</SpecificName>
+    <Tooltip>Train Champions and research technologies. Garrison Soldiers for additional arrows.</Tooltip>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/{civ}_champion_cavalry
+    </Entities>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/persians/fortress.xml</Actor>
+  </VisualActor>
+  <WallPiece>
+    <Length>24.5</Length>
+    <Indent>7.6</Indent>
+  </WallPiece>
+</Entity>

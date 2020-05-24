@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_hero_infantry_archer">
+  <Auras datatype="tokens">
+    units/heroes/athen_hero_themistocles_1
+    units/heroes/athen_hero_themistocles_2
+  </Auras>
+  <Identity>
+    <Civ>300_athen</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Themistokles</GenericName>
+    <SpecificName>Themistoklēs</SpecificName>
+    <Icon>units/300_athen_hero_themistokles.png</Icon>
+  </Identity>
+  <Upgrade>
+    <Sword>
+      <Entity>units/300_athen_hero_themistokles_sword</Entity>
+      <Tooltip>Switch to Sword.</Tooltip>
+      <Time>5</Time>
+    </Sword>
+  </Upgrade>
+  <VisualActor>
+    <Actor>units/300_athenians/hero_infantry_archer_themistokles.xml</Actor>
+  </VisualActor>
+</Entity>
