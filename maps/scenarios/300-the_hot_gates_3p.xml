@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>default</SkySet>
+		<SunColor r="1.19452" g="0.833822" b="0.299801"/>
+		<SunElevation angle="0.726418"/>
+		<SunRotation angle="-0.853475"/>
+		<AmbientColor r="0.364706" g="0.376471" b="0.419608"/>
+		<Fog>
+			<FogFactor>0.00155273</FogFactor>
+			<FogThickness>0</FogThickness>
+			<FogColor r="0.686275" g="0.529412" b="0.301961"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.137255" g="0.129412" b="0.101961"/>
+				<Tint r="0.313726" g="0.247059" b="0.137255"/>
+				<Height>9.18262</Height>
+				<Waviness>6.01563</Waviness>
+				<Murkiness>0.996094</Murkiness>
+				<WindAngle>0</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0.0253906</Brightness>
+			<Contrast>1.16797</Contrast>
+			<Saturation>0.601563</Saturation>
+			<Bloom>0.126758</Bloom>
+			<PostEffect>hdr</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="469.649" y="110.747" z="80.9813"/>
+		<Rotation angle="0"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "AISeed": 0,
+  "CircularMap": true,
+  "Description": "PREPARE FOR GLORY!",
+  "Keywords": [],
+  "LockTeams": false,
+  "Name": "\"300\" The Hot Gates (2)",
+  "PlayerData": [
+    "",
+    {
+      "Civ": "300_spart",
+      "Name": "Player 1"
+    },
+    {
+      "Civ": "300_pers",
+      "Name": "Player 2"
+    },
+    {
+      "Civ": "300_athen",
+      "Name": "Player 3"
+    }
+  ],
+  "Preview": "acropolis_bay.png",
+  "RevealMap": false,
+  "VictoryConditions": []
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="443">
+			<Template>gaia/tree/poplar_lombardy</Template>
+			<Player>0</Player>
+			<Position x="575.86097" z="11.3977"/>
+			<Orientation y="-0.08843"/>
+		</Entity>
+		<Entity uid="718">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="546.24573" z="7.45183"/>
+			<Orientation y="-2.90465"/>
+		</Entity>
+		<Entity uid="1663">
+			<Template>actor|props/flora/plant_medit_artichoke.xml</Template>
+			<Position x="689.78516" z="990.44495"/>
+			<Orientation y="-1.27402"/>
+		</Entity>
+		<Entity uid="2832">
+			<Template>actor|geology/stone_medit_med.xml</Template>
+			<Position x="913.90436" z="819.71583"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="3237">
+			<Template>actor|geology/stone_medit_med.xml</Template>
+			<Position x="996.81531" z="367.14856"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="3281">
+			<Template>actor|geology/stone_medit_med.xml</Template>
+			<Position x="779.09321" z="81.9074"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="3624">
+			<Template>actor|props/flora/grass_soft_dry_small.xml</Template>
+			<Position x="300.57636" z="970.10468"/>
+			<Orientation y="-2.23362"/>
+		</Entity>
+		<Entity uid="3891">
+			<Template>actor|props/flora/grass_soft_dry_small.xml</Template>
+			<Position x="14.774" z="607.12787"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="3892">
+			<Template>actor|props/flora/grass_soft_dry_small.xml</Template>
+			<Position x="13.94967" z="610.18659"/>
+			<Orientation y="0.41466"/>
+		</Entity>
+		<Entity uid="3893">
+			<Template>actor|props/flora/grass_soft_dry_small.xml</Template>
+			<Position x="16.44906" z="618.61463"/>
+			<Orientation y="0.77091"/>
+		</Entity>
+		<Entity uid="3900">
+			<Template>actor|props/flora/grass_soft_dry_large_tall.xml</Template>
+			<Position x="19.31267" z="622.9181"/>
+			<Orientation y="3.04567"/>
+		</Entity>
+		<Entity uid="3903">
+			<Template>actor|props/flora/grass_soft_dry_large_tall.xml</Template>
+			<Position x="17.8333" z="605.47345"/>
+			<Orientation y="2.9985"/>
+		</Entity>
+		<Entity uid="4027">
+			<Template>actor|props/flora/grass_soft_small_tall.xml</Template>
+			<Position x="1002.24354" z="623.61335"/>
+			<Orientation y="-2.8948"/>
+		</Entity>
+		<Entity uid="4217">
+			<Template>gaia/tree/carob</Template>
+			<Player>0</Player>
+			<Position x="930.96949" z="223.04917"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="4219">
+			<Template>gaia/tree/carob</Template>
+			<Player>0</Player>
+			<Position x="879.04676" z="162.40592"/>
+			<Orientation y="2.35621"/>
+		</Entity>
+		<Entity uid="6102">
+			<Template>actor|props/flora/bush_medit_sm.xml</Template>
+			<Position x="71.45757" z="875.81183"/>
+			<Orientation y="1.25766"/>
+			<Actor seed="59050"/>
+		</Entity>
+		<Entity uid="6974">
+			<Template>actor|props/flora/grass_soft_small.xml</Template>
+			<Position x="860.3321" z="894.89087"/>
+			<Orientation y="2.83243"/>
+			<Actor seed="25576"/>
+		</Entity>
+		<Entity uid="7081">
+			<Template>structures/300_spart_civil_centre</Template>
+			<Player>1</Player>
+			<Position x="469.64927" z="179.27955"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="54784"/>
+		</Entity>
+		<Entity uid="7085">
+			<Template>structures/300_pers_civil_centre</Template>
+			<Player>2</Player>
+			<Position x="261.83796" z="546.56019"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="27760"/>
+		</Entity>
+		<Entity uid="7086">
+			<Template>structures/300_athen_civil_centre</Template>
+			<Player>3</Player>
+			<Position x="600.1457" z="815.68903"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61844"/>
+		</Entity>
+		<Entity uid="7087">
+			<Template>units/300_athen_ship_trireme</Template>
+			<Player>3</Player>
+			<Position x="994.77027" z="534.02344"/>
+			<Orientation y="-2.96023"/>
+			<Actor seed="42214"/>
+		</Entity>
+		<Entity uid="7090">
+			<Template>units/300_athen_ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="844.76789" z="310.05915"/>
+			<Orientation y="-3.46935"/>
+			<Actor seed="3214"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

@@ -4,7 +4,6 @@
     <Entities datatype="tokens">
       structures/300_spart_syssiton
       structures/300_spart_theater
-      -structures/{civ}_wallset_stone
     </Entities>
   </Builder>
   <Identity>
