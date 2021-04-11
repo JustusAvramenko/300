@@ -135,22 +135,22 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/300_athen_civil_centre"
+			"Template": "structures/300_athen/civil_centre"
 		},
 		{
-			"Template": "units/300_athen_support_female_citizen",
+			"Template": "units/300_athen/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/300_athen_infantry_spearman_b",
+			"Template": "units/300_athen/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/300_athen_infantry_marine_archer_b",
+			"Template": "units/300_athen/infantry_marine_archer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/300_athen_cavalry_swordsman_b"
+			"Template": "units/300_athen/cavalry_swordsman_b"
 		}
 	],
 	"Formations":
@@ -179,11 +179,11 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/special_starting_unit": "units/300_athen_hero_themistokles_sword",
-		"skirmish/units/default_infantry_ranged_b": "units/300_athen_infantry_marine_archer_b",
-		"skirmish/units/default_infantry_melee_b": "units/300_athen_infantry_spearman_b",
-		"skirmish/units/default_cavalry": "units/300_athen_cavalry_swordsman_b",
-		"skirmish/structures/default_house_10": "structures/300_athen_house"
+		"skirmish/units/special_starting_unit": "units/300_athen/hero_themistokles_sword",
+		"skirmish/units/default_infantry_ranged_b": "units/300_athen/infantry_marine_archer_b",
+		"skirmish/units/default_infantry_melee_b": "units/300_athen/infantry_spearman_b",
+		"skirmish/units/default_cavalry": "units/300_athen/cavalry_swordsman_b",
+		"skirmish/structures/default_house_10": "structures/300_athen/house"
 	},
 	"SelectableInGameSetup": true
 }

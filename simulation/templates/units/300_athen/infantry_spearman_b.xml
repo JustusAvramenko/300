@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+  <Builder>
+    <Entities datatype="tokens">
+      structures/300_athen_theater
+      structures/300_athen_prytaneion
+    </Entities>
+  </Builder>
+  <Identity>
+    <Civ>300_athen</Civ>
+    <Lang>greek</Lang>
+    <SelectionGroupName>units/300_athen/infantry_spearman_b</SelectionGroupName>
+    <SpecificName>Athenian Hoplite</SpecificName>
+    <Icon>units/athen_infantry_spearman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/300_athen/infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/300_athenians/infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

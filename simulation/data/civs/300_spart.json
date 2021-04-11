@@ -121,22 +121,22 @@
 	"StartEntities":
 	[
 		{
-			"Template": "structures/300_spart_civil_centre"
+			"Template": "structures/300_spart/civil_centre"
 		},
 		{
-			"Template": "units/300_spart_support_citizen_female",
+			"Template": "units/300_spart/support_citizen_female",
 			"Count": 4
 		},
 		{
-			"Template": "units/300_spart_champion_spearman",
+			"Template": "units/300_spart/champion_spearman",
 			"Count": 2
 		},		
 		{
-			"Template": "units/300_spart_infantry_javelinist_b",
+			"Template": "units/300_spart/infantry_javelinist_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/300_spart_hero_leonidas"
+			"Template": "units/300_spart/hero_leonidas"
 		}
 	],
 	"Formations":
@@ -165,9 +165,9 @@
 	],
 	"SkirmishReplacements":
 	{
-		"skirmish/units/special_starting_unit": "units/300_spart_hero_leonidas_spear",
-		"skirmish/units/default_infantry_melee_b": "units/300_spart_champion_spearman",
-		"skirmish/structures/default_house_10" : "structures/{civ}_house",
+		"skirmish/units/special_starting_unit": "units/300_spart/hero_leonidas_spear",
+		"skirmish/units/default_infantry_melee_b": "units/300_spart/champion_spearman",
+		"skirmish/structures/default_house_10" : "structures/{civ}/house",
 		"skirmish/structures/default_wall_tower": "",
 		"skirmish/structures/default_wall_gate": "",
 		"skirmish/structures/default_wall_short": "",
