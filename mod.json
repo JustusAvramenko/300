@@ -4,5 +4,5 @@
 	"label": "0 A.D. 300 - Working Copy",
 	"url": "https://github.com/JustusAvramenko/300",
 	"description": "An incredible mod that brings the historical-fantasy world of 300 to 0 A.D.",
-	"dependencies": ["0ad>=0.0.24"]
+	"dependencies": ["0ad>=0.0.25"]
 }
