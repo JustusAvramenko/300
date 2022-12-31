@@ -21,6 +21,6 @@
     <CanPatrol>true</CanPatrol>
   </UnitAI>
   <VisualActor>
-    <Actor>units/spartans/female_citizen.xml</Actor>
+    <Actor>units/300_spartans/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>
