@@ -5,10 +5,10 @@
     <Height>6.0</Height>
   </Footprint>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>300_pers</Civ>
     <Lang>persian</Lang>
     <SpecificName>Masiyakara</SpecificName>
-    <Icon>units/pers_ship_fishing.png</Icon>
+    <Icon>units/pers/ship_fishing.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/fishship.xml</Actor>

@@ -22,7 +22,7 @@
     <Classes datatype="tokens">ConquestCritical</Classes>
     <GenericName>Council Chamber</GenericName>
     <SpecificName>Prytaneion</SpecificName>
-    <Tooltip>Train Heroes and research technologies.</Tooltip>
+    <Tooltip>Train Heroes and research Technologies.</Tooltip>
     <Icon>structures/tholos.png</Icon>
   </Identity>
   <Loot>
@@ -32,24 +32,23 @@
   <Obstruction>
     <Static width="24.0" depth="30.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
-    <Entities datatype="tokens">
-      units/{civ}_hero_themistocles
-      units/{civ}_hero_pericles
-      units/{civ}_hero_iphicrates
-    </Entities>
+  <Researcher>
     <Technologies datatype="tokens">
       hellenes/special_long_walls
-      hellenes/special_iphicratean_reforms
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <Sound>
     <SoundGroups>
       <select>interface/select/building/sel_tholos.xml</select>
       <constructed>interface/complete/building/complete_tholos.xml</constructed>
     </SoundGroups>
   </Sound>
+  <Trainer>
+    <BatchTimeModifier>0.7</BatchTimeModifier>
+    <Entities datatype="tokens">
+      units/{civ}_hero_themistokles
+    </Entities>
+  </Trainer>
   <VisualActor>
     <Actor>structures/athenians/prytaneion.xml</Actor>
   </VisualActor>

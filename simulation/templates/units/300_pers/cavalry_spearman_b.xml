@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>300_pers</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/pers/cavalry_spearman_b</SelectionGroupName>
     <GenericName>Cappadocian Cavalry</GenericName>
     <SpecificName>Asabāra Katpatuka</SpecificName>
-    <Icon>units/pers_cavalry_spearman.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <Icon>units/pers/cavalry_spearman.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/pers/cavalry_spearman_a</Entity>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_spearman">
+<Entity parent="hoplite|template_unit_champion_infantry_spearman">
   <Identity>
     <Civ>300_spart</Civ>
 	<Lang>greek</Lang>
@@ -8,11 +8,7 @@
     <VisibleClasses datatype="tokens">
 	  Spartiates
 	</VisibleClasses>
-	<RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>units/300_spart/champion_spearman.png</Icon>
-    <Formations datatype="tokens">
-      special/formations/phalanx
-    </Formations>
   </Identity>
   <Resistance>
     <Entity>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>300_pers</Civ>
     <Lang>persian</Lang>
     <SelectionGroupName>units/pers/cavalry_javelineer_b</SelectionGroupName>
     <GenericName>Median Light Cavalry</GenericName>
     <SpecificName>Asabāra Māda</SpecificName>
-    <Icon>units/pers_cavalry_javelinist.png</Icon>
+    <Icon>units/pers/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/pers/cavalry_javelineer_a</Entity>

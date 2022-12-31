@@ -8,12 +8,12 @@
     <Height>6.0</Height>
   </Footprint>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>300_pers</Civ>
     <Lang>persian</Lang>
     <GenericName>Xerxes I</GenericName>
     <SpecificName>Xšayāršā</SpecificName>
     <VisibleClasses datatype="tokens">Chariot</VisibleClasses>
-    <Icon>units/pers_hero_xerxes.png</Icon>
+    <Icon>units/pers/hero_xerxes.png</Icon>
   </Identity>
   <Selectable>
     <Overlay>

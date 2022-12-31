@@ -12,7 +12,7 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/300_athen/infantry_marine_archer_b</SelectionGroupName>
     <SpecificName>Athenian Marine Archer</SpecificName>
-    <Icon>units/mace_infantry_archer.png</Icon>
+    <Icon>units/mace/infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/300_athen/infantry_marine_archer_a</Entity>

@@ -6,7 +6,7 @@
     <SelectionGroupName>units/spart_cavalry_javelinist_b</SelectionGroupName>
     <GenericName>Perioikoi Cavalryman</GenericName>
     <SpecificName>Pródromos Perioïkós</SpecificName>
-    <Icon>units/spart_cavalry_javelinist.png</Icon>
+    <Icon>units/spart/cavalry_javelinist.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/300_spart/cavalry_javelinist_a</Entity>

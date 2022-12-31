@@ -8,11 +8,7 @@
     <VisibleClasses datatype="tokens">
 	  Spartiates
 	</VisibleClasses>
-	<RequiredTechnology>phase_city</RequiredTechnology>
     <Icon>units/300_spart/champion_swordsman.png</Icon>
-    <Formations datatype="tokens">
-      special/formations/phalanx
-    </Formations>
   </Identity>
   <Resistance>
     <Entity>

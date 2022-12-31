@@ -14,13 +14,12 @@
   <Obstruction>
     <Static width="22.0" depth="26.0"/>
   </Obstruction>
-  <ProductionQueue>
-    <BatchTimeModifier>0.7</BatchTimeModifier>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}_infantry_marine_archer_b
       units/{civ}_champion_marine
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/athenians/dock.xml</Actor>
     <FoundationActor>structures/fndn_6x4_dock.xml</FoundationActor>

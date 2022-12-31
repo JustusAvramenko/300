@@ -5,8 +5,10 @@
     <Lang>greek</Lang>
     <GenericName>Athenian Marine</GenericName>
     <SpecificName>Epibátēs Athēnaîos</SpecificName>
-    <Icon>units/athen_champion_marine.png</Icon>
-    <RequiredTechnology>hellenes/special_iphicratean_reforms</RequiredTechnology>
+    <Icon>units/athen/champion_marine.png</Icon>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <VisualActor>
     <Actor>units/athenians/infantry_swordsman_c.xml</Actor>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_melee_spearman_hoplite">
+<Entity parent="hoplite|template_unit_infantry_melee_spearman">
   <Builder>
     <Entities datatype="tokens">
       structures/300_athen_theater
@@ -11,7 +11,7 @@
     <Lang>greek</Lang>
     <SelectionGroupName>units/300_athen/infantry_spearman_b</SelectionGroupName>
     <SpecificName>Athenian Hoplite</SpecificName>
-    <Icon>units/athen_infantry_spearman.png</Icon>
+    <Icon>units/athen/infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/300_athen/infantry_spearman_a</Entity>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/pers/cavalry_javelineer_b">
+<Entity parent="units/300_pers/cavalry_javelineer_b">
   <Identity>
-    <RequiredTechnology>equine_transports</RequiredTechnology>
+    <Requirements>
+      <Techs>phase_town</Techs>
+    </Requirements>
   </Identity>
   <Promotion>
     <Entity>units/pers/cavalry_javelineer_a_trireme</Entity>

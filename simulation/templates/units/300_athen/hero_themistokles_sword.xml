@@ -10,6 +10,9 @@
     <GenericName>Themistokles</GenericName>
     <SpecificName>Themistoklēs</SpecificName>
     <Icon>units/300_athen/hero_themistokles.png</Icon>
+    <Requirements>
+      <Techs>phase_village</Techs>
+    </Requirements>
   </Identity>
   <Upgrade>
     <Bow>

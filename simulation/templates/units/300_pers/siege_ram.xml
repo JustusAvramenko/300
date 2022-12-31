@@ -15,11 +15,11 @@
     <Max op="add">2</Max>
   </GarrisonHolder>
   <Identity>
-    <Civ>pers</Civ>
+    <Civ>300_pers</Civ>
     <Lang>persian</Lang>
     <GenericName>Assyrian Siege Ram</GenericName>
     <SpecificName>Hamaranakuba Aθuriya</SpecificName>
-    <Icon>units/pers_siege_ram.png</Icon>
+    <Icon>units/pers/siege_ram.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>structures/persians/siege_ram.xml</Actor>

@@ -27,11 +27,11 @@
   <Obstruction>
     <Static width="28.0" depth="28.0"/>
   </Obstruction>
-  <ProductionQueue>
+  <Researcher>
     <Technologies datatype="tokens">
       upgrade_rank_advanced_mercenary
     </Technologies>
-  </ProductionQueue>
+  </Researcher>
   <VisualActor>
     <Actor>structures/athenians/gymnasium.xml</Actor>
     <FoundationActor>structures/fndn_8x9.xml</FoundationActor>
